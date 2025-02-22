@@ -20,15 +20,21 @@ This project retrieves real-time weather data for multiple cities using the Open
    ```sh
    git clone https://github.com/your-username/weather-data-analysis.git
    cd weather-data-analysis
-2.Install dependencies:
+2. Install dependencies:
   pip install -r requirements.txt
 
-3.Replace your_api_key_here in weather_script.py with your actual OpenWeatherMap API key.
+3. Replace your_api_key_here in weather_script.py with your actual OpenWeatherMap API key.
 
-4.Run the script:
+4. Run the script:
   python weather_script.py
 
-5.The script will:
+5. The script will:
   •Display weather data.
   •Save data to weather_data.csv.
   •Show a bar chart comparing temperatures.
+
+6. Example Output:
+City        Temperature    Weather       Humidity
+New York     15°C          Clear Sky       60%
+London       10°C          Clouds          70%
+Tokyo        18°C          Rain            85%
